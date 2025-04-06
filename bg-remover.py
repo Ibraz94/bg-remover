@@ -59,6 +59,18 @@ if upload_image is not None:
 
 else:
     st.write("Please upload an image to get started.")
-    
+
+
+    st.markdown("---") 
+    st.markdown(
+        """
+        <div style="text-align: center; color: #888888; padding: 20px;">
+            <p>Image Background Remover | Version 1.0</p>
+            <p style='font-size: 0.8em;'>© 2025 All rights reserved</p>
+            <p style='font-size: 0.8em;'>Created by Ibraz Ur Rehman</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
 
